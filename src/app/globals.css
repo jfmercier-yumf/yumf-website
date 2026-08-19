@@ -1,26 +1,166 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-yumf-green-light: var(--yumf-green-light);
+  --color-yumf-green: var(--yumf-green);
+  --color-yumf-green-medium: var(--yumf-green-medium);
+  --color-yumf-green-dark: var(--yumf-green-dark);
+
+  --color-yumf-yellow-light: var(--yumf-yellow-light);
+  --color-yumf-yellow: var(--yumf-yellow);
+  --color-yumf-yellow-medium: var(--yumf-yellow-medium);
+  --color-yumf-yellow-dark: var(--yumf-yellow-dark);
+
+  --color-yumf-blue-light: var(--yumf-blue-light);
+  --color-yumf-blue: var(--yumf-blue);
+  --color-yumf-blue-medium: var(--yumf-blue-medium);
+  --color-yumf-blue-dark: var(--yumf-blue-dark);
+
+  --color-yumf-magenta-light: var(--yumf-magenta-light);
+  --color-yumf-magenta: var(--yumf-magenta);
+  --color-yumf-magenta-medium: var(--yumf-magenta-medium);
+  --color-yumf-magenta-dark: var(--yumf-magenta-dark);
+
+  --color-surface-subtle: var(--surface-subtle);
+
+  --font-sans: var(--font-sans);
   --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-sans);
+
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+:root {
+  /* Yumf brand */
+  --yumf-green-light: #a7f36c;
+  --yumf-green: #3cd40d;
+  --yumf-green-medium: #18ba00;
+  --yumf-green-dark: #055d20;
+
+  --yumf-yellow-light: #ffe066;
+  --yumf-yellow: #ffd700;
+  --yumf-yellow-medium: #ffc107;
+  --yumf-yellow-dark: #c95c00;
+
+  --yumf-blue-light: #94c9ff;
+  --yumf-blue: #3a8dff;
+  --yumf-blue-medium: #2739fc;
+  --yumf-blue-dark: #0d307c;
+
+  --yumf-magenta-light: #ff9bd4;
+  --yumf-magenta: #ff3ebf;
+  --yumf-magenta-medium: #ff1493;
+  --yumf-magenta-dark: #6b0c81;
+
+  /* Semantic colors */
+  --background: #ffffff;
+  --foreground: #0f172a;
+
+  /*
+   * The mobile app uses #f1f2f4 as its main background.
+   * On the marketing website we keep the page background white so that
+   * illustrations fading to white integrate naturally, and use this token
+   * for alternating/subtle sections.
+   */
+  --surface-subtle: #f1f2f4;
+
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+
+  --popover: #fcfcfd;
+  --popover-foreground: #0f172a;
+
+  --primary: #3cd40d;
+  --primary-foreground: #055d20;
+
+  --secondary: #fdfcfc;
+  --secondary-foreground: #0f172a;
+
+  --muted: #f1f1f1;
+  --muted-foreground: #6a6a6a;
+
+  --accent: #a7f36c;
+  --accent-foreground: #055d20;
+
+  --destructive: #d70015;
+
+  --border: #d8d8d8;
+  --input: #d8d8d8;
+  --ring: #18ba00;
+
+  --radius: 0.625rem;
+}
+
+.dark {
+  --background: #0b0d12;
+  --foreground: #f1f5f9;
+
+  --surface-subtle: #1c1f29;
+
+  --card: #2a2a2c;
+  --card-foreground: #f1f5f9;
+
+  --popover: #1c1f29;
+  --popover-foreground: #f1f5f9;
+
+  --primary: #3cd40d;
+  --primary-foreground: #055d20;
+
+  --secondary: #1c1f29;
+  --secondary-foreground: #f1f5f9;
+
+  --muted: #2c2c2e;
+  --muted-foreground: #a0a0a0;
+
+  --accent: #a7f36c;
+  --accent-foreground: #055d20;
+
+  --destructive: #ff453a;
+
+  --border: #4a4a4c;
+  --input: #4a4a4c;
+  --ring: #18ba00;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
   }
-}
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  html {
+    @apply font-sans;
+  }
 }
