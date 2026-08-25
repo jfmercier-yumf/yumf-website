@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -54,7 +53,7 @@ export function DocumentationDropdown({
   return (
     <DropdownMenu>
       <DropdownMenuTrigger
-        className={`flex items-center gap-2 border-b-2 px-5 text-[15px] font-semibold text-neutral-800 transition-colors hover:text-primary focus-visible:outline-none ${
+        className={`flex h-full items-center gap-2 border-b-2 font-semibold text-neutral-800 transition-colors hover:text-primary focus-visible:outline-none ${
           isActive
             ? "border-primary text-primary"
             : "border-transparent hover:border-primary"
@@ -62,13 +61,9 @@ export function DocumentationDropdown({
       >
         <span>{content.label}</span>
 
-        <Image
-          src="/icons/ui/arrow-expand.svg"
-          alt=""
-          width={14}
-          height={14}
+        <span
           aria-hidden="true"
-          className="size-3.5"
+          className="size-3.5 bg-current mask-[url('/icons/ui/arrow-expand.svg')] mask-center mask-no-repeat mask-contain"
         />
       </DropdownMenuTrigger>
 

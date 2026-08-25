@@ -10,23 +10,27 @@ export const downloadContentFr = {
   features: {
     scanReceipts: {
       title: "Scannez vos reçus",
-      description:
+      description: [
         "Accumulez automatiquement vos points après chacun de vos achats.",
+      ],
     },
     discoverArtisans: {
       title: "Découvrez les artisans",
-      description:
+      description: [
         "Explorez les artisans et leurs produits directement dans l’application.",
+      ],
     },
     rewards: {
       title: "Obtenez des récompenses",
-      description:
+      description: [
         "Échangez vos points contre les récompenses offertes par vos Clubs.",
+      ],
     },
     progress: {
       title: "Suivez votre progression",
-      description:
+      description: [
         "Consultez votre historique, vos points et votre progression vers le prochain niveau.",
+      ],
     },
   },
 

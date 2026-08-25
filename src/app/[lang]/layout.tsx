@@ -28,15 +28,12 @@ export default async function LanguageLayout({
   const language: Language = lang;
 
   return (
-<div
-  data-language={language}
-  className="flex min-h-screen flex-col"
->
-  <TopNav language={language} />
+    <div data-language={language} className="flex min-h-screen flex-col">
+      <TopNav language={language} />
 
-  <main className="flex-1">{children}</main>
+      <main className="flex-1">{children}</main>
 
-  <Footer language={language} />
-</div>
+      <Footer language={language} />
+    </div>
   );
 }

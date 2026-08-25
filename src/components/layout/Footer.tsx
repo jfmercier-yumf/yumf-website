@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -9,6 +11,7 @@ import { sharedAssets } from "@/content/shared/assets";
 import { sharedContentEn } from "@/content/shared/en";
 import { sharedContentFr } from "@/content/shared/fr";
 import { MobileFooter } from "@/components/layout/MobileFooter";
+import { LanguageSelect } from "@/components/content/LanguageSelect";
 
 import { PageContainer } from "@/components/layout/PageContainer";
 
@@ -48,38 +51,39 @@ export function Footer({ language }: FooterProps) {
                     Yumf
                   </span>
                 </Link>
+                {false && (
+                  <div className="flex items-center gap-4">
+                    <Link
+                      href={externalLinks.stores.appStore}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={content.stores.appStore}
+                    >
+                      <Image
+                        src={stores.appStore}
+                        alt=""
+                        width={126}
+                        height={42}
+                        className="h-auto w-auto"
+                      />
+                    </Link>
 
-                <div className="flex items-center gap-4">
-                  <Link
-                    href={externalLinks.stores.appStore}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={content.stores.appStore}
-                  >
-                    <Image
-                      src={stores.appStore}
-                      alt=""
-                      width={126}
-                      height={42}
-                      className="h-auto w-auto"
-                    />
-                  </Link>
-
-                  <Link
-                    href={externalLinks.stores.googlePlay}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    aria-label={content.stores.googlePlay}
-                  >
-                    <Image
-                      src={stores.googlePlay}
-                      alt=""
-                      width={142}
-                      height={42}
-                      className="h-auto w-auto"
-                    />
-                  </Link>
-                </div>
+                    <Link
+                      href={externalLinks.stores.googlePlay}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={content.stores.googlePlay}
+                    >
+                      <Image
+                        src={stores.googlePlay}
+                        alt=""
+                        width={142}
+                        height={42}
+                        className="h-auto w-auto"
+                      />
+                    </Link>
+                  </div>
+                )}
               </div>
 
               <div className="flex items-center gap-5">
@@ -93,12 +97,7 @@ export function Footer({ language }: FooterProps) {
                     className="size-4"
                   />
 
-                  <Link
-                    href={`/${language === "fr" ? "en" : "fr"}`}
-                    className="inline-flex h-9 items-center rounded-lg border border-black/15 px-3 text-sm font-medium text-neutral-800 transition-colors hover:border-black/30"
-                  >
-                    {content.language}
-                  </Link>
+                  <LanguageSelect language={language} />
                 </div>
 
                 <Link
@@ -115,21 +114,22 @@ export function Footer({ language }: FooterProps) {
                     className="size-6"
                   />
                 </Link>
-
-                <Link
-                  href={externalLinks.social.linkedIn}
-                  aria-label="LinkedIn"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Image
-                    src={sharedAssets.linkedIn}
-                    alt=""
-                    width={24}
-                    height={24}
-                    className="size-6"
-                  />
-                </Link>
+                {false && (
+                  <Link
+                    href={externalLinks.social.linkedIn}
+                    aria-label="LinkedIn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Image
+                      src={sharedAssets.linkedIn}
+                      alt=""
+                      width={24}
+                      height={24}
+                      className="size-6"
+                    />
+                  </Link>
+                )}
               </div>
             </div>
 

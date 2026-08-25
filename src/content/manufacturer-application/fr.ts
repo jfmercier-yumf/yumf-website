@@ -75,6 +75,21 @@ export const manufacturerApplicationContentFr = {
       },
     },
 
+    referral: {
+      label: "Comment avez-vous entendu parler de Yumf ?",
+      optional: "(optionnel)",
+      placeholder: "Sélectionnez une option",
+      options: [
+        { value: "SOCIAL_MEDIA", label: "Réseaux sociaux" },
+        { value: "GOOGLE_SEARCH", label: "Recherche Google" },
+        { value: "FRIEND_OR_COLLEAGUE", label: "Ami ou collègue" },
+        { value: "EVENT_OR_PUBLIC_MARKET", label: "Salon ou marché public" },
+        { value: "OTHER_ARTISAN", label: "Un autre artisan" },
+        { value: "ARTICLE_OR_MEDIA", label: "Article ou média" },
+        { value: "OTHER", label: "Autre" },
+      ],
+    },
+
     memberNumberHelp: {
       text: "Vous n’avez pas encore de numéro de membre Yumf ?",
       cta: "Téléchargez Yumf",

@@ -1,7 +1,3 @@
-import type { Language } from "@/i18n/config";
-
-type LocalizedAsset = Record<Language, string>;
-
 export const homeAssets = {
   hero: "/images/home/hero.webp",
 
@@ -20,10 +16,4 @@ export const homeAssets = {
   },
 
   network: "/images/home/network.webp",
-
-  // Exemple d'une interface contenant du texte.
-  appInterface: {
-    fr: "/images/home/app-interface-fr.webp",
-    en: "/images/home/app-interface-en.webp",
-  } satisfies LocalizedAsset,
 } as const;

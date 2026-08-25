@@ -1,0 +1,177 @@
+{
+  "plans": [
+    {
+      "subscriptionPlanId": 1,
+      "programs": [
+        {
+          "id": 1,
+          "name": "GIFT",
+          "translationKey": "GIFT",
+          "displayOrder": 1,
+          "programType": "GIFT",
+          "translations": [
+            {
+              "translationKey": "GIFT",
+              "value": "Gift"
+            },
+            {
+              "translationKey": "GIFT",
+              "value": "Cadeau"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subscriptionPlanId": 2,
+      "programs": [
+        {
+          "id": 2,
+          "name": "TOMBOLA",
+          "translationKey": "TOMBOLA",
+          "displayOrder": 2,
+          "programType": "TOMBOLA",
+          "translations": [
+            {
+              "translationKey": "TOMBOLA",
+              "value": "Draw"
+            },
+            {
+              "translationKey": "TOMBOLA",
+              "value": "Tirage"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "BONUS_POINTS_DIRECT_SALE",
+          "translationKey": "BONUS_POINTS_DIRECT_SALE",
+          "displayOrder": 3,
+          "programType": "BONUS_POINTS_DIRECT_SALE",
+          "translations": [
+            {
+              "translationKey": "BONUS_POINTS_DIRECT_SALE",
+              "value": "Bonus Points on Direct Purchase"
+            },
+            {
+              "translationKey": "BONUS_POINTS_DIRECT_SALE",
+              "value": "Points bonis sur achat en direct"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subscriptionPlanId": 3,
+      "programs": [
+        {
+          "id": 4,
+          "name": "BONUS_POINTS_BIRTHDAY",
+          "translationKey": "BONUS_POINTS_BIRTHDAY",
+          "displayOrder": 4,
+          "programType": "BONUS_POINTS_BIRTHDAY",
+          "translations": [
+            {
+              "translationKey": "BONUS_POINTS_BIRTHDAY",
+              "value": "Bonus Points on Birthday"
+            },
+            {
+              "translationKey": "BONUS_POINTS_BIRTHDAY",
+              "value": "Points bonis pour anniversaire"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "PRODUCT_CARD",
+          "translationKey": "PRODUCT_CARD",
+          "displayOrder": 5,
+          "programType": "PRODUCT_CARD",
+          "translations": [
+            {
+              "translationKey": "PRODUCT_CARD",
+              "value": "Product Card"
+            },
+            {
+              "translationKey": "PRODUCT_CARD",
+              "value": "Carte produit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "subscriptionPlanId": 4,
+      "programs": [
+        {
+          "id": 6,
+          "name": "DISCOUNT_CODE",
+          "translationKey": "DISCOUNT_CODE",
+          "displayOrder": 6,
+          "programType": "DISCOUNT_CODE",
+          "translations": [
+            {
+              "translationKey": "DISCOUNT_CODE",
+              "value": "Discount Code"
+            },
+            {
+              "translationKey": "DISCOUNT_CODE",
+              "value": "Code promo"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "GIFT_CARD",
+          "translationKey": "GIFT_CARD",
+          "displayOrder": 7,
+          "programType": "GIFT_CARD",
+          "translations": [
+            {
+              "translationKey": "GIFT_CARD",
+              "value": "Gift Card"
+            },
+            {
+              "translationKey": "GIFT_CARD",
+              "value": "Carte-cadeau"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "LEADERBOARD",
+          "translationKey": "LEADERBOARD",
+          "displayOrder": 8,
+          "programType": "LEADERBOARD",
+          "translations": [
+            {
+              "translationKey": "LEADERBOARD",
+              "value": "Leaderboard"
+            },
+            {
+              "translationKey": "LEADERBOARD",
+              "value": "Classement des points"
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "name": "STAMP",
+          "translationKey": "STAMP",
+          "displayOrder": 9,
+          "programType": "STAMP",
+          "translations": [
+            {
+              "translationKey": "STAMP",
+              "value": "Stamp Card"
+            },
+            {
+              "translationKey": "STAMP",
+              "value": "Carte de timbres"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

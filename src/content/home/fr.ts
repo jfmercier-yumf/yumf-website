@@ -3,7 +3,7 @@ export const homeContentFr = {
     title: "Chaque choix de produit est le début d’une relation",
     subtitle: "Pourquoi devrait-elle s’arrêter à l’achat ?",
     description:
-      "Chaque achat est un geste de confiance. Il peut devenir le début d’une relation durable.",
+      "Chaque achat est un geste de confiance.  Il peut devenir le début d’une relation durable.",
     primaryCta: "Télécharger Yumf",
     secondaryCta: "Lire pourquoi Yumf existe",
   },

@@ -22,15 +22,22 @@ export const experienceAssets = {
     overview: "/images/experience/programs/overview.webp",
 
     productCard: {
-      fr: "/images/experience/programs/product-card/fr.webp",
-      en: "/images/experience/programs/product-card/en.webp",
-    } satisfies LocalizedAsset,
+      interface: {
+        fr: "/images/experience/programs/product-card/fr.webp",
+        en: "/images/experience/programs/product-card/en.webp",
+      } satisfies LocalizedAsset,
+
+      pictogram: "/images/experience/programs/product-card/pictogram.webp",
+    },
 
     leaderboard: {
-      fr: "/images/experience/programs/leaderboard/fr.webp",
-      en: "/images/experience/programs/leaderboard/en.webp",
-    } satisfies LocalizedAsset,
+      interface: {
+        fr: "/images/experience/programs/leaderboard/fr.webp",
+        en: "/images/experience/programs/leaderboard/en.webp",
+      } satisfies LocalizedAsset,
 
+      pictogram: "/images/experience/programs/leaderboard/pictogram.webp",
+    },
     programIcons: "/images/experience/programs/program-icons.webp",
 
     collection: "/images/experience/programs/collection.webp",

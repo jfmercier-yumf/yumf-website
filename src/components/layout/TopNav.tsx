@@ -12,6 +12,7 @@ import { DocumentationDropdown } from "@/components/layout/DocumentationDropdown
 import { MobileNav } from "@/components/layout/MobileNav";
 import { PageContainer } from "@/components/layout/PageContainer";
 import { TopNavLink } from "@/components/layout/TopNavLink";
+import { LaunchNotice } from "@/components/layout/LaunchNotice";
 
 type TopNavProps = {
   language: Language;
@@ -23,6 +24,8 @@ export function TopNav({ language }: TopNavProps) {
 
   return (
     <header className="sticky top-0 z-50 border-b border-black/10 bg-white/95 backdrop-blur">
+      <LaunchNotice language={language} />
+
       <PageContainer className="flex h-18 items-center">
         <div className="mr-3 min-[950px]:hidden">
           <MobileNav language={language} />
@@ -72,10 +75,12 @@ export function TopNav({ language }: TopNavProps) {
             />
           </div>
 
-          <DocumentationDropdown
-            language={language}
-            content={content.documentation}
-          />
+          <div className="px-5">
+            <DocumentationDropdown
+              language={language}
+              content={content.documentation}
+            />
+          </div>
         </nav>
 
         <Link

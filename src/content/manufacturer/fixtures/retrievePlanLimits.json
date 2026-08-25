@@ -1,0 +1,96 @@
+{
+  "plans": [
+    {
+      "subscriptionPlanId": "1",
+      "limits": {
+        "POINT_OF_SALE": {
+          "MAX_COUNT": 1
+        },
+        "MEMBER": {
+          "MAX_COUNT": 250
+        },
+        "USER": {
+          "MAX_COUNT": 2
+        },
+        "PRODUCT": {
+          "MAX_COUNT": 5
+        },
+        "PRODUCT_FORMAT": {
+          "MAX_PRODUCT_FORMAT_PER_PRODUCT": 1
+        },
+        "BONUS_POINTS": {
+          "MAX_MONTHLY_BONUS_POINTS": 0
+        }
+      }
+    },
+    {
+      "subscriptionPlanId": "2",
+      "limits": {
+        "POINT_OF_SALE": {
+          "MAX_COUNT": 3
+        },
+        "MEMBER": {
+          "MAX_COUNT": 1000
+        },
+        "USER": {
+          "MAX_COUNT": 4
+        },
+        "PRODUCT": {
+          "MAX_COUNT": 10
+        },
+        "PRODUCT_FORMAT": {
+          "MAX_PRODUCT_FORMAT_PER_PRODUCT": 2
+        },
+        "BONUS_POINTS": {
+          "MAX_MONTHLY_BONUS_POINTS": 50000
+        }
+      }
+    },
+    {
+      "subscriptionPlanId": "3",
+      "limits": {
+        "POINT_OF_SALE": {
+          "MAX_COUNT": 5
+        },
+        "MEMBER": {
+          "MAX_COUNT": 2500
+        },
+        "USER": {
+          "MAX_COUNT": 6
+        },
+        "PRODUCT": {
+          "MAX_COUNT": 15
+        },
+        "PRODUCT_FORMAT": {
+          "MAX_PRODUCT_FORMAT_PER_PRODUCT": 3
+        },
+        "BONUS_POINTS": {
+          "MAX_MONTHLY_BONUS_POINTS": 100000
+        }
+      }
+    },
+    {
+      "subscriptionPlanId": "4",
+      "limits": {
+        "POINT_OF_SALE": {
+          "MAX_COUNT": 10
+        },
+        "MEMBER": {
+          "MAX_COUNT": 5000
+        },
+        "USER": {
+          "MAX_COUNT": 10
+        },
+        "PRODUCT": {
+          "MAX_COUNT": 20
+        },
+        "PRODUCT_FORMAT": {
+          "MAX_PRODUCT_FORMAT_PER_PRODUCT": 5
+        },
+        "BONUS_POINTS": {
+          "MAX_MONTHLY_BONUS_POINTS": 150000
+        }
+      }
+    }
+  ]
+}

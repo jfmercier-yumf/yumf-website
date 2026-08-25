@@ -8,26 +8,30 @@ export const manufacturerContentFr = {
     benefits: {
       salesChannels: {
         title: "Tous vos canaux de vente",
-        description:
+        description: [
           "Reconnaissez les achats réalisés en épicerie ou directement dans vos points de ventes.",
+        ],
       },
 
       programs: {
         title: "Des programmes qui fidélisent",
-        description:
+        description: [
           "Choisissez les programmes qui reflètent votre façon de fidéliser vos membres.",
+        ],
       },
 
       members: {
         title: "Des membres que vous connaissez",
-        description:
+        description: [
           "Comprenez les habitudes d’achat de vos membres pour mieux les connaître.",
+        ],
       },
 
       team: {
         title: "Une équipe qui collabore",
-        description:
+        description: [
           "Invitez votre équipe et gérez votre Club ensemble, chacun selon son rôle.",
+        ],
       },
     },
   },
@@ -86,20 +90,23 @@ export const manufacturerContentFr = {
     features: {
       directory: {
         title: "Vos membres",
-        description:
+        description: [
           "Identifiez vos membres les plus engagés et découvrez leur niveau d’appréciation ainsi que leur progression.",
+        ],
       },
 
       club: {
         title: "Votre Club",
-        description:
+        description: [
           "Découvrez les produits qui suscitent le plus d’intérêt et consultez des indicateurs qui vous aident à mieux comprendre votre communauté.",
+        ],
       },
 
       member: {
         title: "Chaque membre",
-        description:
+        description: [
           "Accédez au profil complet de chaque membre, consultez ses achats, ses récompenses, son historique et sa progression afin d’offrir une expérience plus personnalisée.",
+        ],
       },
     },
   },
@@ -108,7 +115,50 @@ export const manufacturerContentFr = {
     title: "Votre Club évolue. Votre forfait aussi.",
     description:
       "Commencez gratuitement. Passez au niveau supérieur uniquement lorsque votre Club grandit. Chaque forfait augmente vos capacités et débloque de nouveaux programmes de fidélité.",
+
+    monthly: "/ mois",
+    free: "Gratuit",
+    start: "Commencer",
+    upTo: "Jusqu’à",
+
+    programs: {
+      singular: "Programme inclus",
+      plural: "Programmes inclus",
+    },
+
+    limits: {
+      MEMBER_MAX_COUNT: {
+        singular: "membre",
+        plural: "membres",
+      },
+      USER_MAX_COUNT: {
+        singular: "utilisateur",
+        plural: "utilisateurs",
+      },
+      POINT_OF_SALE_MAX_COUNT: {
+        singular: "point de vente",
+        plural: "points de vente",
+      },
+      PRODUCT_MAX_COUNT: {
+        singular: "produit",
+        plural: "produits",
+      },
+      PRODUCT_FORMAT_MAX_PRODUCT_FORMAT_PER_PRODUCT: {
+        singular: "format par produit",
+        plural: "formats par produit",
+      },
+      PRODUCT_FORMAT_PROMOTION_MAX_ACTIVE_PRODUCT_FORMAT_PROMOTION: {
+        singular: "promotion active",
+        plural: "promotions actives",
+      },
+      BONUS_POINTS_MAX_MONTHLY_BONUS_POINTS: {
+        singular: "point boni",
+        plural: "points bonis",
+      },
+    },
+
     note: "Les points bonis se renouvellent à tous les mois.",
+
     custom: {
       title: "Besoins particuliers ?",
       description: [

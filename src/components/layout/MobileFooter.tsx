@@ -7,6 +7,7 @@ import { routes } from "@/config/routes";
 import { sharedAssets } from "@/content/shared/assets";
 import { sharedContentEn } from "@/content/shared/en";
 import { sharedContentFr } from "@/content/shared/fr";
+import { LanguageSelect } from "@/components/content/LanguageSelect";
 
 import { PageContainer } from "@/components/layout/PageContainer";
 
@@ -40,38 +41,38 @@ export function MobileFooter({ language }: MobileFooterProps) {
 
             <span className="text-xl font-bold text-neutral-900">Yumf</span>
           </Link>
-
-          <div className="flex items-center justify-center gap-3">
-            <Link
-              href={externalLinks.stores.appStore}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={content.stores.appStore}
-            >
-              <Image
-                src={stores.appStore}
-                alt="App Store"
-                width={126}
-                height={42}
-                className="h-10.5 w-auto"
-              />
-            </Link>
-            <Link
-              href={externalLinks.stores.googlePlay}
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label={content.stores.googlePlay}
-            >
-              <Image
-                src={stores.googlePlay}
-                alt="Google Play"
-                width={142}
-                height={42}
-                className="h-10.5 w-auto"
-              />
-            </Link>
-          </div>
-
+          {false && (
+            <div className="flex items-center justify-center gap-3">
+              <Link
+                href={externalLinks.stores.appStore}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={content.stores.appStore}
+              >
+                <Image
+                  src={stores.appStore}
+                  alt="App Store"
+                  width={126}
+                  height={42}
+                  className="h-10.5 w-auto"
+                />
+              </Link>
+              <Link
+                href={externalLinks.stores.googlePlay}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={content.stores.googlePlay}
+              >
+                <Image
+                  src={stores.googlePlay}
+                  alt="Google Play"
+                  width={142}
+                  height={42}
+                  className="h-10.5 w-auto"
+                />
+              </Link>
+            </div>
+          )}
           <div className="flex items-center justify-center gap-4">
             <div className="flex items-center gap-2">
               <Image
@@ -82,13 +83,7 @@ export function MobileFooter({ language }: MobileFooterProps) {
                 aria-hidden="true"
                 className="size-4"
               />
-
-              <Link
-                href={`/${language === "fr" ? "en" : "fr"}`}
-                className="inline-flex h-9 items-center rounded-lg border border-black/15 px-3 text-sm font-medium text-neutral-800 transition-colors hover:border-black/30"
-              >
-                {content.language}
-              </Link>
+              <LanguageSelect language={language} />
             </div>
 
             <Link href={externalLinks.social.facebook} aria-label="Facebook">
@@ -100,16 +95,17 @@ export function MobileFooter({ language }: MobileFooterProps) {
                 className="size-5.5"
               />
             </Link>
-
-            <Link href={externalLinks.social.linkedIn} aria-label="LinkedIn">
-              <Image
-                src={sharedAssets.linkedIn}
-                alt="LinkedIn"
-                width={22}
-                height={22}
-                className="size-5.5"
-              />
-            </Link>
+            {false && (
+              <Link href={externalLinks.social.linkedIn} aria-label="LinkedIn">
+                <Image
+                  src={sharedAssets.linkedIn}
+                  alt="LinkedIn"
+                  width={22}
+                  height={22}
+                  className="size-5.5"
+                />
+              </Link>
+            )}
           </div>
 
           <div className="flex flex-col items-center gap-3 text-center text-sm text-neutral-600">

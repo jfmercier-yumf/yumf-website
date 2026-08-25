@@ -44,7 +44,7 @@ export function MobileNav({ language }: MobileNavProps) {
       isActive ? "text-primary" : "text-neutral-900 hover:text-primary"
     }`;
   };
-  
+
   return (
     <Sheet>
       <SheetTrigger
