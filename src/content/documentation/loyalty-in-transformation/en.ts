@@ -33,18 +33,18 @@ export const loyaltyInTransformationEn: LocalizedDocument = {
       type: "paragraph",
       text: "It seeks to understand what these observations tell us about the evolution of loyalty.",
     },
-    {
-      type: "paragraph",
-      text: "The beliefs presented in the documents Why Yumf Exists and The Yumf Philosophy provide the starting point for this reflection. The research, market studies, and examples presented in the chapters that follow are not intended to construct this vision. Rather, they help determine whether it truly reflects the transformations currently being observed.",
-    },
-    {
-      type: "paragraph",
-      text: "The reader will therefore not discover a new philosophy here.",
-    },
-    {
-      type: "paragraph",
-      text: "Instead, they will discover why this philosophy is increasingly resonating with businesses, researchers, and customer experience specialists.",
-    },
+{
+  type: "paragraph",
+  text: "The beliefs presented in the document Why Yumf Exists provide the starting point for this reflection. The research, market studies, and examples presented in the chapters that follow are not intended to construct this vision. Rather, they help determine whether it truly reflects the transformations currently being observed.",
+},
+{
+  type: "paragraph",
+  text: "The reader will therefore not discover a new vision here.",
+},
+{
+  type: "paragraph",
+  text: "Instead, they will discover why this vision is increasingly resonating with businesses, researchers, and customer experience specialists.",
+},
     {
       type: "paragraph",
       text: "Because before an idea can transform an industry, it must first respond to a reality.",
@@ -119,7 +119,7 @@ export const loyaltyInTransformationEn: LocalizedDocument = {
             },
             {
               type: "paragraph",
-              text: "How often do we promise ourselves that we will buy again a local product, a craft beer, a cheese, a coffee, or a jam discovered by chance, only for our everyday habits to naturally take over again?",
+              text: "How often do we promise ourselves that we will buy again a local product, a craft beer, a cured sausage, a coffee, or a jam discovered by chance, only for our everyday habits to naturally take over again?",
             },
             {
               type: "paragraph",

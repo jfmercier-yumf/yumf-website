@@ -769,10 +769,10 @@ export const whereYumfFitsFr: LocalizedDocument = {
               type: "paragraph",
               text: "Les CRM regroupent un vaste ensemble de solutions destinées à gérer les relations avec les clients, les partenaires, les distributeurs ou les autres organisations avec lesquelles une entreprise est déjà en relation. Parmi les solutions les plus connues figurent notamment Salesforce, HubSpot, Microsoft Dynamics 365, Zoho CRM, SAP Customer Experience et Pipedrive.",
             },
-            {
-              type: "paragraph",
-              text: "Le présent chapitre traite exclusivement des systèmes de gestion de la relation client. Les plateformes spécialisées en fidélisation, dont la mission consiste principalement à concevoir et à administrer des programmes de fidélisation, seront abordées dans un chapitre distinct.",
-            },
+{
+  type: "paragraph",
+  text: "Le présent chapitre traite exclusivement des systèmes de gestion de la relation client. Bien que certaines solutions puissent intégrer des fonctionnalités de fidélisation, leur mission principale demeure la gestion des relations et des activités commerciales de l’entreprise.",
+},
           ],
         },
         {

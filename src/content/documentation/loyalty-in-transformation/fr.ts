@@ -35,15 +35,15 @@ export const loyaltyInTransformationFr: LocalizedDocument = {
     },
     {
       type: "paragraph",
-      text: "Les convictions présentées dans les documents Pourquoi Yumf existe et Philosophie Yumf constituent le point de départ de cette réflexion. Les recherches, les études de marché et les exemples présentés dans les chapitres qui suivent ne servent pas à construire cette vision. Ils permettent plutôt de vérifier si elle correspond réellement aux transformations actuellement observées.",
+      text: "Les convictions présentées dans le document Pourquoi Yumf existe constituent le point de départ de cette réflexion. Les recherches, les études de marché et les exemples présentés dans les chapitres qui suivent ne servent pas à construire cette vision. Ils permettent plutôt de vérifier si elle correspond réellement aux transformations actuellement observées.",
     },
     {
       type: "paragraph",
-      text: "Le lecteur ne découvrira donc pas ici une nouvelle philosophie.",
+      text: "Le lecteur ne découvrira donc pas ici une nouvelle vision.",
     },
     {
       type: "paragraph",
-      text: "Il découvrira pourquoi cette philosophie trouve aujourd’hui un écho grandissant auprès des entreprises, des chercheurs et des spécialistes de l’expérience client.",
+      text: "Il découvrira pourquoi cette vision trouve aujourd’hui un écho grandissant auprès des entreprises, des chercheurs et des spécialistes de l’expérience client.",
     },
     {
       type: "paragraph",
@@ -119,7 +119,7 @@ export const loyaltyInTransformationFr: LocalizedDocument = {
             },
             {
               type: "paragraph",
-              text: "Combien de fois promettons-nous de retourner acheter un produit local, une bière artisanale, un fromage, un café ou une confiture découverts par hasard, avant que nos habitudes quotidiennes ne reprennent naturellement le dessus?",
+              text: "Combien de fois promettons-nous de retourner acheter un produit local, une bière artisanale, un fromage, un saucisson ou une confiture découverts par hasard, avant que nos habitudes quotidiennes ne reprennent naturellement le dessus?",
             },
             {
               type: "paragraph",

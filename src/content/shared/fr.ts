@@ -14,7 +14,7 @@ export const sharedContentFr = {
       },
     },
 
-    download: "Télécharger Yumf",
+    download: "Télécharger",
   },
 
   footer: {

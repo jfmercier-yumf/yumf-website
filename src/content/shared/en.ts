@@ -14,7 +14,7 @@ export const sharedContentEn = {
       },
     },
 
-    download: "Download Yumf",
+    download: "Download",
   },
 
   footer: {
