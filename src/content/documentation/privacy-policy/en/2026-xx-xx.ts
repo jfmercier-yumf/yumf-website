@@ -326,6 +326,357 @@ export const privacyPolicyEn2026XXXX = {
         },
       ],
     },
+
+    {
+      id: "use-of-personal-information",
+      number: "3",
+      title: "Why We Use Personal Information",
+      content: [
+        {
+          type: "paragraph",
+          text: "Yumf uses Personal Information only for purposes consistent with this Policy, the Services offered, Users’ reasonable expectations and applicable laws.",
+        },
+        {
+          type: "paragraph",
+          text: "Personal Information is used only to the extent necessary to fulfill the purposes described in this section.",
+        },
+      ],
+      children: [
+        {
+          id: "provide-the-services",
+          number: "3.1",
+          title: "Provide the Services",
+          content: [
+            {
+              type: "paragraph",
+              text: "Yumf uses Personal Information to provide, operate, maintain and support the Services offered through the Platform.",
+            },
+            {
+              type: "paragraph",
+              text: "This use may include:",
+            },
+            {
+              type: "list",
+              style: "bullet",
+              items: [
+                "creating and administering User Accounts;",
+                "providing access to Platform features;",
+                "ensuring the operation, availability, security and continuity of the Services;",
+                "personalizing certain features according to Users’ preferences;",
+                "providing the technical, administrative or operational support necessary to deliver the Services.",
+              ],
+            },
+          ],
+        },
+        {
+          id: "manage-accounts",
+          number: "3.2",
+          title: "Manage Accounts",
+          content: [
+            {
+              type: "paragraph",
+              text: "Yumf uses Personal Information to create, authenticate, protect and administer User Accounts.",
+            },
+            {
+              type: "paragraph",
+              text: "This use may include:",
+            },
+            {
+              type: "list",
+              style: "bullet",
+              items: [
+                "verifying Users’ identities where necessary;",
+                "ensuring Account security;",
+                "managing profiles, preferences, permissions and settings associated with Accounts;",
+                "preventing unauthorized access and security incidents;",
+                "enforcing the Terms of Use and other applicable policies.",
+              ],
+            },
+            {
+              type: "paragraph",
+              text: "Yumf may rely on specialized service providers to offer certain services related to Account authentication or security. Personal Information disclosed to them is limited to what is necessary to provide their services.",
+            },
+          ],
+        },
+        {
+          id: "administer-clubs",
+          number: "3.3",
+          title: "Administer Clubs",
+          content: [
+            {
+              type: "paragraph",
+              text: "Yumf uses Personal Information to create, administer and ensure the proper operation of Clubs.",
+            },
+            {
+              type: "paragraph",
+              text: "This use may include:",
+            },
+            {
+              type: "list",
+              style: "bullet",
+              items: [
+                "managing Manufacturers’ Clubs;",
+                "processing membership requests and managing Members;",
+                "allowing Manufacturers to administer their Club in accordance with their assigned roles;",
+                "allowing Members to access the features and benefits associated with their Club;",
+                "ensuring the integrity and proper operation of Clubs.",
+              ],
+            },
+            {
+              type: "paragraph",
+              text: "Where necessary to administer a Club, Yumf may allow the relevant Manufacturer to access its Members’ Personal Information to the extent necessary to operate its Club, in accordance with the Terms of Use and this Policy.",
+            },
+          ],
+        },
+        {
+          id: "administer-programs-and-rewards",
+          number: "3.4",
+          title: "Administer Programs and Rewards",
+          content: [
+            {
+              type: "paragraph",
+              text: "Yumf uses Personal Information to administer Programs, manage loyalty benefits and process Rewards.",
+            },
+            {
+              type: "paragraph",
+              text: "This use may include:",
+            },
+            {
+              type: "list",
+              style: "bullet",
+              items: [
+                "managing participation in Programs;",
+                "applying the rules specific to each Program;",
+                "calculating, awarding, modifying or cancelling loyalty benefits;",
+                "tracking Members’ progress;",
+                "processing Reward requests;",
+                "arranging for the preparation, fulfillment, delivery or pickup of Rewards;",
+                "preventing errors, misuse or fraudulent activity.",
+              ],
+            },
+            {
+              type: "paragraph",
+              text: "Where necessary, Yumf may disclose certain Personal Information to Manufacturers or its service providers to administer Programs or fulfill Rewards.",
+            },
+          ],
+        },
+        {
+          id: "verify-receipts-and-prevent-fraud",
+          number: "3.5",
+          title: "Verify Receipts and Prevent Fraud",
+          content: [
+            {
+              type: "paragraph",
+              text: "Yumf uses Personal Information to verify Receipts, confirm the eligibility of Eligible Purchases, ensure the integrity of Clubs, Programs and loyalty benefits, and prevent, detect and address fraudulent or abusive activity.",
+            },
+            {
+              type: "paragraph",
+              text: "This use may include:",
+            },
+            {
+              type: "list",
+              style: "bullet",
+              items: [
+                "analyzing Receipts submitted by Members;",
+                "extracting the information necessary to process them, including through optical character recognition (OCR), artificial intelligence or other similar technologies;",
+                "confirming the eligibility of an Eligible Purchase;",
+                "verifying compliance with the rules applicable to Clubs, Programs and the Terms of Use;",
+                "detecting incomplete, illegible, falsified, altered, duplicated or otherwise non-compliant Receipts;",
+                "detecting unusual or abusive behaviour or activity that may compromise the integrity of the Platform;",
+                "processing correction or review requests and conducting additional verification;",
+                "protecting the Platform, Manufacturers, Members and other Users against fraudulent or malicious activity.",
+              ],
+            },
+            {
+              type: "paragraph",
+              text: "Where necessary, Yumf may combine information from Receipts with other Personal Information or information generated through use of the Platform to confirm the eligibility of an Eligible Purchase, detect activity that may compromise the integrity of the Services, prevent fraud or ensure compliance with the Terms of Use.",
+            },
+            {
+              type: "paragraph",
+              text: "Certain verifications may be performed automatically or may require human intervention where reasonably necessary to confirm the authenticity of a Receipt, prevent fraud, ensure processing quality or comply with applicable laws.",
+            },
+          ],
+        },
+        {
+          id: "communicate-with-users",
+          number: "3.6",
+          title: "Communicate with Users",
+          content: [
+            {
+              type: "paragraph",
+              text: "Yumf uses Personal Information to communicate with Users where necessary to provide the Services, administer Clubs and Programs, protect the Platform or comply with its legal obligations.",
+            },
+            {
+              type: "paragraph",
+              text: "These communications may relate to:",
+            },
+            {
+              type: "list",
+              style: "bullet",
+              items: [
+                "Accounts;",
+                "Clubs;",
+                "Programs;",
+                "loyalty benefits;",
+                "Rewards;",
+                "Receipts;",
+                "correction or review requests;",
+                "support requests;",
+                "Account security;",
+                "changes to the Platform, the Services, the Terms of Use or this Policy;",
+                "any other information necessary for the proper operation of the Services.",
+              ],
+            },
+            {
+              type: "paragraph",
+              text: "Depending on the Services used, these communications may be sent by email, through notifications displayed on the Platform or, where the User consents or applicable laws permit, through push notifications sent to devices associated with the User’s Account.",
+            },
+            {
+              type: "paragraph",
+              text: "Certain communications are essential to providing the Services and cannot be declined while the User continues to use the Platform. Promotional communications remain subject to the User’s choices, communication preferences and applicable laws.",
+            },
+          ],
+        },
+        {
+          id: "improve-the-platform",
+          number: "3.7",
+          title: "Improve the Platform",
+          content: [
+            {
+              type: "paragraph",
+              text: "Yumf uses Personal Information to continuously improve the Platform and the Services.",
+            },
+            {
+              type: "paragraph",
+              text: "This use may include:",
+            },
+            {
+              type: "list",
+              style: "bullet",
+              items: [
+                "developing new features;",
+                "improving the User experience;",
+                "optimizing the performance, stability and security of the Platform;",
+                "correcting defects and technical incidents;",
+                "evaluating the quality of the Services.",
+              ],
+            },
+            {
+              type: "paragraph",
+              text: "Where possible, Yumf gives preference to aggregated, anonymized or de-identified information.",
+            },
+          ],
+        },
+        {
+          id: "produce-analytics-and-statistics",
+          number: "3.8",
+          title: "Produce Analytics and Statistics",
+          content: [
+            {
+              type: "paragraph",
+              text: "Yumf uses Personal Information to produce analyses, statistics, reports, indicators and other analytical information necessary to operate, develop and continuously improve the Platform and the Services.",
+            },
+            {
+              type: "paragraph",
+              text: "This use may include:",
+            },
+            {
+              type: "list",
+              style: "bullet",
+              items: [
+                "evaluating use of the Platform;",
+                "measuring the performance of Clubs, Programs, Rewards and Services;",
+                "identifying usage trends, general behaviours and performance indicators;",
+                "producing analytical features offered to Manufacturers;",
+                "improving the Services and developing new features;",
+                "monitoring the quality, stability and evolution of the Platform.",
+              ],
+            },
+            {
+              type: "paragraph",
+              text: "Where possible, Yumf gives preference to aggregated, anonymized or de-identified information when producing these analyses and statistics.",
+            },
+            {
+              type: "paragraph",
+              text: "The analyses, statistics, indicators, trends, derived information and other analytical information produced by Yumf may constitute informational assets of Yumf. Subject to applicable laws and Users’ rights, Yumf may use, retain, enrich and make them available to Manufacturers through features offered by the Platform, provided that such information does not directly or indirectly identify a User where applicable laws so require.",
+            },
+            {
+              type: "paragraph",
+              text: "This section does not authorize Manufacturers or other Users to use analyses, statistics or information accessible through the Platform for purposes inconsistent with the Terms of Use, including to develop, train or improve a product, service or artificial intelligence system that competes with Yumf’s Services.",
+            },
+            {
+              type: "paragraph",
+              text: "Yumf may also use Personal Information to segment audiences, personalize the Services and determine which Users may be eligible for relevant offers, benefits, Programs or communications proposed by Yumf, a Manufacturer or a partner, subject to applicable laws and, where required, the User’s consent.",
+            },
+            {
+              type: "paragraph",
+              text: "In this context, Yumf may select or target Users using information available to it without disclosing to the Manufacturer or partner the identities of the targeted Users or their cross-Club profiles. The Manufacturer or partner may receive analyses, statistics or results relating to the audience or performance of the offer, to the extent permitted by applicable laws.",
+            },
+          ],
+        },
+        {
+          id: "comply-with-legal-obligations",
+          number: "3.9",
+          title: "Comply with Legal Obligations",
+          content: [
+            {
+              type: "paragraph",
+              text: "Yumf uses Personal Information where necessary to comply with applicable laws, protect its rights, ensure compliance of its activities and respond to legally authorized requests from competent authorities.",
+            },
+            {
+              type: "paragraph",
+              text: "This use may include:",
+            },
+            {
+              type: "list",
+              style: "bullet",
+              items: [
+                "complying with applicable legal and regulatory obligations;",
+                "responding to requests from competent authorities;",
+                "preventing, detecting or investigating illegal or fraudulent activities;",
+                "establishing, exercising or defending the rights of Yumf or any other person;",
+                "managing claims, disputes, investigations and audits.",
+              ],
+            },
+          ],
+        },
+        {
+          id: "highlight-user-participation",
+          number: "3.10",
+          title: "Highlight User Participation",
+          content: [
+            {
+              type: "paragraph",
+              text: "Yumf uses certain Personal Information and information generated through use of the Services to offer community features that recognize and highlight Users’ participation, engagement and achievements on the Platform.",
+            },
+            {
+              type: "paragraph",
+              text: "This use may include:",
+            },
+            {
+              type: "list",
+              style: "bullet",
+              items: [
+                "displaying a User’s profile in certain community features of the Platform;",
+                "presenting the User’s level, Badges, ranking, achievements or distinctions;",
+                "recognizing Users who actively participate in or contribute to Clubs, Programs or the Yumf community;",
+                "establishing and displaying rankings or other recognition mechanisms based on participation or engagement;",
+                "highlighting the Yumf community and the people who contribute to its vitality.",
+              ],
+            },
+            {
+              type: "paragraph",
+              text: "The information made visible through these features is limited to information provided for by the Platform and may include the avatar, first name, last-name initial, city of residence, level, Badges, ranking and achievements or distinctions earned.",
+            },
+            {
+              type: "paragraph",
+              text: "Users can manage the visibility of their profile in these features through their Account settings. When a User disables public profile visibility, Yumf stops displaying the User’s profile in the community features to which this setting applies, subject to information whose use or display remains necessary to provide the Services or is permitted by applicable laws.",
+            },
+          ],
+        },
+      ],
+    },
+
     {
       id: "disclosure-of-personal-information",
       number: "4",
@@ -432,7 +783,7 @@ export const privacyPolicyEn2026XXXX = {
             },
             {
               type: "paragraph",
-              text: "When these features are offered, certain Personal Information may be made visible to other Users or to the relevant Manufacturer, in accordance with the privacy settings selected by the Member.",
+              text: "When these features are offered, certain Personal Information may be made visible to other Users or to the relevant Manufacturer. Members can control the public visibility of their profile through their Account settings.",
             },
             {
               type: "paragraph",
@@ -452,10 +803,6 @@ export const privacyPolicyEn2026XXXX = {
                 "achievements or distinctions earned;",
                 "any other information the Member chooses to make visible.",
               ],
-            },
-            {
-              type: "paragraph",
-              text: "Where this option is available, the Member may modify the applicable privacy settings directly through their Account.",
             },
           ],
         },

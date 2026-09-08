@@ -1194,7 +1194,7 @@ export const termsOfUseEn: LocalizedDocument = {
             },
             {
               type: "paragraph",
-              text: "Once the required number of punches has been reached, the Member may claim the Participating Product in accordance with the terms of the Program. Depending on the circumstances, the Participating Product may be delivered to the Member or picked up at a point of sale designated by the Manufacturer.",
+              text: "Once the required number of punches has been reached, the Product Card is completed and the Member becomes eligible to claim the Participating Product in accordance with the terms of the Program. Completing a Product Card does not reserve the Participating Product or guarantee that the Member will receive it. The Participating Product is granted to the Member only once the Reward request has been confirmed in accordance with Section 24 – Reward Request, subject in particular to its availability at the time of the claim. Depending on the circumstances, the Participating Product may be delivered to the Member or picked up at a point of sale designated by the Manufacturer.",
             },
             {
               type: "paragraph",

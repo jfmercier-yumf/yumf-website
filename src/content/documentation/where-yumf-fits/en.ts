@@ -768,10 +768,10 @@ export const whereYumfFitsEn: LocalizedDocument = {
               type: "paragraph",
               text: "CRM systems encompass a broad range of solutions designed to manage relationships with customers, partners, distributors, or other organizations with which a business already has a relationship. Some of the best-known solutions include Salesforce, HubSpot, Microsoft Dynamics 365, Zoho CRM, SAP Customer Experience, and Pipedrive.",
             },
-{
-  type: "paragraph",
-  text: "This chapter deals exclusively with customer relationship management systems. Although some solutions may include loyalty features, their primary purpose remains the management of a company’s relationships and commercial activities.",
-},
+            {
+              type: "paragraph",
+              text: "This chapter deals exclusively with customer relationship management systems. Although some solutions may include loyalty features, their primary purpose remains the management of a company’s relationships and commercial activities.",
+            },
           ],
         },
         {

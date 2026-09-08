@@ -964,7 +964,7 @@ export const termsOfUseFr: LocalizedDocument = {
             },
             {
               type: "paragraph",
-              text: "Une fois le nombre de poinçons requis atteint, le Membre peut réclamer le Produit participant conformément aux modalités prévues par le Programme. Selon le cas, le Produit participant peut être livré au Membre ou récupéré à un point de vente désigné par le Fabricant.",
+              text: "Une fois le nombre de poinçons requis atteint, la Carte produit est complétée et le Membre devient admissible à réclamer le Produit participant conformément aux modalités prévues par le Programme. Le fait de compléter une Carte produit ne réserve pas le Produit participant et ne garantit pas son obtention. Le Produit participant n’est accordé au Membre qu’une fois sa demande de Récompense confirmée conformément à la section 24 – Demande de Récompense, sous réserve notamment de sa disponibilité au moment de la réclamation. Selon le cas, le Produit participant peut être livré au Membre ou récupéré à un point de vente désigné par le Fabricant.",
             },
             {
               type: "paragraph",

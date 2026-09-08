@@ -641,6 +641,40 @@ export const privacyPolicyFr2026XXXX = {
             },
           ],
         },
+        {
+          id: "mettre-en-valeur-participation-utilisateurs",
+          number: "3.10",
+          title: "Mettre en valeur la participation des Utilisateurs",
+          content: [
+            {
+              type: "paragraph",
+              text: "Yumf utilise certains Renseignements personnels et renseignements générés dans le cadre de l’utilisation des Services afin d’offrir des fonctionnalités communautaires permettant de reconnaître et de mettre en valeur la participation, l’engagement et les réalisations des Utilisateurs au sein de la Plateforme.",
+            },
+            {
+              type: "paragraph",
+              text: "Cette utilisation peut notamment permettre :",
+            },
+            {
+              type: "list",
+              style: "bullet",
+              items: [
+                "d’afficher le profil d’un Utilisateur dans certaines fonctionnalités communautaires de la Plateforme;",
+                "de présenter son niveau, ses Badges, son classement, ses réalisations ou ses distinctions;",
+                "de reconnaître les Utilisateurs qui participent ou contribuent activement aux Clubs, aux Programmes ou à la communauté Yumf;",
+                "d’établir et d’afficher des classements ou d’autres mécanismes de reconnaissance fondés sur la participation ou l’engagement;",
+                "de mettre en valeur la communauté Yumf et les personnes qui contribuent à son dynamisme.",
+              ],
+            },
+            {
+              type: "paragraph",
+              text: "Les renseignements rendus visibles dans ces fonctionnalités sont limités à ceux prévus par la Plateforme et peuvent notamment comprendre l’avatar, le prénom, l’initiale du nom de famille, la ville de résidence, le niveau, les Badges, le classement ainsi que les réalisations ou distinctions obtenues.",
+            },
+            {
+              type: "paragraph",
+              text: "L’Utilisateur peut gérer la visibilité de son profil dans ces fonctionnalités au moyen des paramètres de son Compte. Lorsqu’il désactive la visibilité publique de son profil, Yumf cesse de présenter son profil dans les fonctionnalités communautaires auxquelles ce paramètre s’applique, sous réserve des renseignements dont l’utilisation ou l’affichage demeure nécessaire à la prestation des Services ou permis par les lois applicables.",
+            },
+          ],
+        },
       ],
     },
 
@@ -750,7 +784,7 @@ export const privacyPolicyFr2026XXXX = {
             },
             {
               type: "paragraph",
-              text: "Lorsque ces fonctionnalités sont offertes, certains Renseignements personnels peuvent être rendus visibles aux autres Utilisateurs ou au Fabricant concerné, conformément aux paramètres de confidentialité choisis par le Membre.",
+              text: "Lorsque ces fonctionnalités sont offertes, certains Renseignements personnels peuvent être rendus visibles aux autres Utilisateurs ou au Fabricant concerné. Le Membre peut contrôler la visibilité publique de son profil au moyen des paramètres de son Compte.",
             },
             {
               type: "paragraph",
@@ -770,10 +804,6 @@ export const privacyPolicyFr2026XXXX = {
                 "les réalisations ou distinctions obtenues;",
                 "tout autre renseignement que le Membre choisit de rendre visible.",
               ],
-            },
-            {
-              type: "paragraph",
-              text: "Le Membre peut, lorsque cette possibilité est offerte, modifier les paramètres de confidentialité applicables directement à partir de son Compte.",
             },
           ],
         },

@@ -34,12 +34,12 @@ export function ManufacturerFinalCTA({ content }: ManufacturerFinalCTAProps) {
           {content.description}
         </p>
 
-<a
-  href="./manufacturer/apply"
-  className="mt-12 flex min-h-14 w-full max-w-md items-center justify-center rounded-full border-2 border-[#28cc18] px-8 text-center text-lg font-semibold text-[#28cc18] transition-colors hover:bg-[#28cc18] hover:text-white"
->
-  {content.cta}
-</a>
+        <a
+          href="./manufacturer/apply"
+          className="mt-12 flex min-h-14 w-full max-w-md items-center justify-center rounded-full border-2 border-[#28cc18] px-8 text-center text-lg font-semibold text-[#28cc18] transition-colors hover:bg-[#28cc18] hover:text-white"
+        >
+          {content.cta}
+        </a>
       </div>
     </section>
   );
